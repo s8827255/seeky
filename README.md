@@ -19,6 +19,10 @@
 
 下載位置樣板: https://dl.dropboxusercontent.com/s/{dropbox_shared_link}/{filename}
 
+### dropbox access token
+
+sl.BFWPFgfjrqwkZ9HEWcJ6QBlYKxBf7eD9JFjtp84zZsSMT88q-cc7jQ0KtSRkseMrWPaUnuCXXa75-WuJI_47FUb8ujZJIMoXGE1kAN_Q1zWAnmYsxCpurZnAgPRTKXaoQJtFAC4
+
 ### 資源(yumingdev's dropbox)
 
 * ipa - https://dl.dropboxusercontent.com/s/46y17otx515g6mf/Payload.ipa
@@ -26,6 +30,6 @@
 
 ## [使用 ad-hoc](https://zhongwei0717.medium.com/ipa-%E7%9A%84-ota-%E4%B9%8B%E6%97%85-%E8%AE%93%E4%BD%A0%E7%9A%84-app-%E4%B8%8D%E9%80%8F%E9%81%8E%E5%85%B6%E4%BB%96%E6%96%B9%E5%BC%8F%E7%9B%B4%E6%8E%A5%E5%AE%89%E8%A3%9D%E5%88%B0%E6%89%8B%E6%A9%9F-749b02f061d7)
 
-## [不使用 Dropbo，改用 Firebase 的替代方案](https://ithelp.ithome.com.tw/articles/10260765?sc=iThelpR)
+## [不使用 Dropbox，改用 Firebase 的替代方案](https://ithelp.ithome.com.tw/articles/10260765?sc=iThelpR)
 
 ## [使用 firebase 發佈新版本](https://firebase.google.com/codelabs/appdistribution-udid-collection)
