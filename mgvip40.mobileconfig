@@ -318,7 +318,7 @@
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>芒果体育</string>
+			<string>芒果体育 mgvip40</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 設定</string>
 			<key>PayloadDisplayName</key>
@@ -338,7 +338,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>芒果体育 mgvip40</string>
+	<string>芒果体育</string>
 	<key>PayloadIdentifier</key>
 	<string>www.mgvip40.com</string>
 	<key>PayloadRemovalDisallowed</key>
