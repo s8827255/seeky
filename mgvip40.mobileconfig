@@ -334,7 +334,7 @@
 			<key>Precomposed</key>
 			<false/>
 			<key>URL</key>
-			<string>https://www.mgvip40.com/?channelId=C67875_1&type=3</string>
+			<string>https%3A%2F%2Fwww.mgvip40.com%2F%3FchannelId%3DC67875_1%26type%3D3</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
