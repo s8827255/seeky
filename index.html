@@ -4,19 +4,41 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<h1><a href="#" onclick="install();">安裝芒果體育
-    </a></h1>
+<h1><a href="#" onclick="mgvip40();">安裝芒果體育 (mgvip40)</a></h1>
+<h1><a href="#" onclick="vivtiyu();">安裝芒果體育 (vivtiyu)</a></h1>
 
 </html>
 
 <script>
-
-    function install() {
+    function mgvip40() {
         setTimeout(function () {
             var iframe = document.createElement('iframe');
             iframe.style.display = "none";
             iframe.style.height = 0;
-            iframe.src = 'mango.mobileconfig';
+            iframe.src = 'mgvip40.mobileconfig';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 60 * 1000);
+        }, 20);
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'embedded.mobileprovision';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 2 * 60 * 1000);
+        }, 2000);
+    }
+
+    function vivtiyu() {
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'vivtiyu.mobileconfig';
             document.body.appendChild(iframe);
             setTimeout(function () {
                 iframe.remove();
