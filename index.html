@@ -7,6 +7,9 @@
 <h1><a href="#" onclick="mgvip40();">安裝芒果體育 (mgvip40)</a></h1>
 <h1><a href="#" onclick="vivtiyu();">安裝芒果體育 (vivtiyu)</a></h1>
 <h1><a href="#" onclick="gflive();">GFLive</a></h1>
+<h1><a href="#" onclick="gflivetest();">測試GF</a></h1>
+<h1><a href="#" onclick="test();">test</a></h1>
+
 
 </html>
 
@@ -57,12 +60,35 @@
         }, 2000);
     }
 
-    function gflive() {
+    function gflivetest() {
         setTimeout(function () {
             var iframe = document.createElement('iframe');
             iframe.style.display = "none";
             iframe.style.height = 0;
-            iframe.src = 'GFLive.mobileconfig';
+            iframe.src = 'GFLive1.mobileconfig';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 60 * 1000);
+        }, 20);
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'anyadhoc.mobileprovision';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 2 * 60 * 1000);
+        }, 2000);
+    }
+
+    function test() {
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'test.mobileconfig';
             document.body.appendChild(iframe);
             setTimeout(function () {
                 iframe.remove();
