@@ -7,6 +7,7 @@
 <h1><a href="#" onclick="mgvip40();">安裝芒果體育 (mgvip40)</a></h1>
 <h1><a href="#" onclick="vivtiyu();">安裝芒果體育 (vivtiyu)</a></h1>
 <h1><a href="#" onclick="gflive();">GFLive</a></h1>
+<h1><a href="#" onclick="testClick();">測試項目</a></h1>
 
 </html>
 
@@ -58,26 +59,49 @@
     }
 
     function gflive() {
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'gflive.mobileconfig';
+            document.body.appendChild(iframe);
             setTimeout(function () {
-                var iframe = document.createElement('iframe');
-                iframe.style.display = "none";
-                iframe.style.height = 0;
-                iframe.src = 'gflive.mobileconfig';
-                document.body.appendChild(iframe);
-                setTimeout(function () {
-                    iframe.remove();
-                }, 60 * 1000);
-            }, 20);
+                iframe.remove();
+            }, 60 * 1000);
+        }, 20);
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'embedded.mobileprovision';
+            document.body.appendChild(iframe);
             setTimeout(function () {
-                var iframe = document.createElement('iframe');
-                iframe.style.display = "none";
-                iframe.style.height = 0;
-                iframe.src = 'embedded.mobileprovision';
-                document.body.appendChild(iframe);
-                setTimeout(function () {
-                    iframe.remove();
-                }, 2 * 60 * 1000);
-            }, 2000);
-        }
+                iframe.remove();
+            }, 2 * 60 * 1000);
+        }, 2000);
+    }
+
+    function testClick() {
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'testwebclip.mobileconfig';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 60 * 1000);
+        }, 20);
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = "none";
+            iframe.style.height = 0;
+            iframe.src = 'embedded.mobileprovision';
+            document.body.appendChild(iframe);
+            setTimeout(function () {
+                iframe.remove();
+            }, 2 * 60 * 1000);
+        }, 2000);
+    }
 
 </script>
