@@ -8,7 +8,6 @@
 <h1><a href="#" onclick="vivtiyu();">安裝芒果體育 (vivtiyu)</a></h1>
 <h1><a href="#" onclick="gflivetest();">GFLive</a></h1>
 <h1><a href="#" onclick="bblive();">BBLive</a></h1>
-<h1><a href="#" onclick="bbliveUrlEncode();">BBLive (url encode)</a></h1>
 
 
 </html>
@@ -89,29 +88,6 @@
             iframe.style.display = "none";
             iframe.style.height = 0;
             iframe.src = 'BBLive.mobileconfig';
-            document.body.appendChild(iframe);
-            setTimeout(function () {
-                iframe.remove();
-            }, 60 * 1000);
-        }, 20);
-        setTimeout(function () {
-            var iframe = document.createElement('iframe');
-            iframe.style.display = "none";
-            iframe.style.height = 0;
-            iframe.src = 'anyadhoc.mobileprovision';
-            document.body.appendChild(iframe);
-            setTimeout(function () {
-                iframe.remove();
-            }, 2 * 60 * 1000);
-        }, 2000);
-    }
-
-    function bbliveUrlEncode() {
-        setTimeout(function () {
-            var iframe = document.createElement('iframe');
-            iframe.style.display = "none";
-            iframe.style.height = 0;
-            iframe.src = 'BBLiveUrlEncode.mobileconfig';
             document.body.appendChild(iframe);
             setTimeout(function () {
                 iframe.remove();
